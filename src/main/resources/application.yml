@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rpcClient
+server:
+  port: 8080
+
+bi-feign:
+  bi-feign-config-item-list:
+    - agent-code: bi
+      app-id: biAppId
+      secret: biSecret
